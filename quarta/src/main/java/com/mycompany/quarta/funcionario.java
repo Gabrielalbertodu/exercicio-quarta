@@ -30,8 +30,8 @@ public class funcionario extends pessoa {
     public void mostrarDados() {
         super.mostrarDados();
         System.out.println("Cargo: " + this.cargo);
-        System.out.println("Data de Admissão: " + this.dataAdmissao);
-        System.out.println("Salário: " + this.salario);
+        System.out.println("Data de Admissao: " + this.dataAdmissao);
+        System.out.println("Salario: " + this.salario);
     }
 
     public Double calcularSalarioAnual() {

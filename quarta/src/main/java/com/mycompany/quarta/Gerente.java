@@ -31,6 +31,6 @@ public class Gerente extends funcionario {
     public void mostrarDados() {
         super.mostrarDados();
         System.out.println("Equipe: " + equipe);
-        System.out.println("Bônus: " + bonus);
+        System.out.println("Bonus: " + bonus);
     }
 }
